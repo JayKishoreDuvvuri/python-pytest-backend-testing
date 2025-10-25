@@ -42,7 +42,8 @@ There are only practical limitations, all related to the fact that we want to tr
 
 
 ## Project Structure
-.
+```
+├── ...
 ├── app
 │   ├── __init__.py
 │   └── main.py
@@ -70,3 +71,4 @@ There are only practical limitations, all related to the fact that we want to tr
 ├── __pycache__/
 ├── .pytest_cache/
 ├── .vscode/
+```
