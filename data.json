@@ -1,0 +1,55 @@
+{
+  "cirq_iqm": {
+    "name": "Cirq on IQM",
+    "package_name": "cirq-iqm",
+    "executor_image": "iqm-client-executor",
+    "repo_url": "https://github.com/iqm-finland/cirq-on-iqm",
+    "package_url": "https://pypi.org/project/cirq-iqm/",
+    "min": "11.9",
+    "max": "13.0"
+  },
+  "iqm_cortex_cli": {
+    "name": "Cortex CLI",
+    "package_name": "iqm-cortex-cli",
+    "repo_url": "https://github.com/iqm-finland/cortex-cli",
+    "package_url": "https://pypi.org/project/iqm-cortex-cli/",
+    "min": "4.2",
+    "max": "6.0"
+  },
+  "iqm_exa_experiment": {
+    "name": "EXA",
+    "package_name": "iqm-exa-experiment",
+    "executor_image": "iqm-calibration-executor",
+    "repo_url": "",
+    "package_url": "",
+    "min": "112.3",
+    "max": "113.0"
+  },
+  "iqm_calibration": {
+    "name": "IQM Calibration",
+    "package_name": "iqm-calibration",
+    "executor_image": "iqm-calibration-executor",
+    "repo_url": "",
+    "package_url": "",
+    "min": "4.1",
+    "max": "4.2"
+  },
+  "iqm_client": {
+    "name": "IQM client",
+    "package_name": "iqm-client",
+    "executor_image": "iqm-client-executor",
+    "repo_url": "https://github.com/iqm-finland/iqm-client",
+    "package_url": "https://pypi.org/project/iqm-client/",
+    "min": "13.2",
+    "max": "15.0"
+  },
+  "qiskit_iqm": {
+    "name": "Qiskit on IQM",
+    "package_name": "qiskit-iqm",
+    "executor_image": "iqm-client-executor",
+    "repo_url": "https://github.com/iqm-finland/qiskit-on-iqm",
+    "package_url": "https://pypi.org/project/qiskit-iqm/",
+    "min": "10.9",
+    "max": "12.0"
+  }
+}
